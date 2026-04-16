@@ -97,7 +97,7 @@ DATABASES = {
     #         conn_max_age=600
     #     ),
     'default': dj_database_url.config(
-        default=f"sqlite:///{BASE_DIR / 'db.sqlite3'}"
+        default="sqlite:///{BASE_DIR / 'db.sqlite3'}"
     )
 }
 # postgresql://webdev_kxbz_user:5nGnXPW22GNKK8wiEsREP9GiQGWtEKUm@dpg-d7eh0itckfvc73c1edag-a/webdev_kxbz
